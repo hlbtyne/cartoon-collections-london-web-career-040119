@@ -22,6 +22,3 @@ def find_the_cheese(array)
     cheese_types.include(item)
   end
 end
-
-
-animals.any?{|x| mammals.include?(x)}
