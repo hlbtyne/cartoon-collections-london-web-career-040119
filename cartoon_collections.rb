@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |call|
-    call
+    call.length > 4
 end
 
 def find_the_cheese#
